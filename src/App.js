@@ -1,11 +1,10 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import './App.css';
+import Countries from './containers/Countries/Countries'
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <Countries />
   );
 }
 
