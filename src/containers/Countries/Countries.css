@@ -1,0 +1,15 @@
+.CountriesPanel {
+    border-bottom: 1px solid gray;
+    max-height: 700px;
+    width: 30%;
+    overflow-y: scroll;
+}
+
+.CountriesPanel li {
+    padding: 3px;
+}
+
+.CountriesPanel li:hover {
+    background: lightslategray;
+    cursor: pointer;
+}
